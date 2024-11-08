@@ -720,3 +720,28 @@ h1,h2,h3,h4,h5,h6 {
     height: 740px;
   }
 }
+/* moi */
+.product-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  display: none;
+  z-index: 9999; /* Đảm bảo modal nổi lên trên */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-details-content {
+  padding: 15px;
+}
+
+.product-details a {
+  margin-top: 10px;
+  display: inline-block;
+}
+
