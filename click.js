@@ -20,3 +20,5 @@ document.getElementById("showDetailsSocola").addEventListener("click", function(
     document.getElementById("productDetailsKem").style.display = "none";
   });
   
+
+ 
